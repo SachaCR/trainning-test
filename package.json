@@ -1,0 +1,16 @@
+{
+  "name": "test-example",
+  "version": "1.0.0",
+  "description": "Best practice about testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "SachaCR",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "jest": "^24.8.0",
+    "rabbot": "^2.1.0"
+  }
+}
