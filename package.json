@@ -6,6 +6,14 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "verbose": false
+  },
   "author": "SachaCR",
   "license": "ISC",
   "dependencies": {
