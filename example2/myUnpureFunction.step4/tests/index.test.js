@@ -1,6 +1,6 @@
-const myUnpureFunctionFactory = require('../myUnpureFunction.step3');
+const myUnpureFunctionFactory = require('../index');
 
-describe('myUnpureFunction() step 3', () => {
+describe('myUnpureFunction() step 4', () => {
 
   describe('When called with 2 valid numbers and a date', () => {
     const a = 5;

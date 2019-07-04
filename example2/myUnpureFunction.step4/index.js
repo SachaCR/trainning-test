@@ -12,11 +12,11 @@ const schema = Joi.object().keys({
 function injectDeps(dependencies) {
   const { rabbot } = dependencies;
 
-  function myUnpureFunction(a, b, now) {
+  async function myUnpureFunction(a, b, now) {
 
     validate({ a, b, now }, schema);
 
-    rabbot.publish('exchange', {
+    await rabbot.publish('exchange', {
       type: 'event.operation.addition',
       body: {
         a,
