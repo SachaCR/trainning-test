@@ -7,7 +7,7 @@ const schema = Joi.object().keys({
 });
 
 async function myUnpureFunction(a, b) {
-  const result = schema.validate({a, b});
+  const result = schema.validate({ a, b });
 
   if (result.error) {
     throw result.error;

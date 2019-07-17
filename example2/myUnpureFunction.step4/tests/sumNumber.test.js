@@ -1,5 +1,3 @@
-const Joi = require('@hapi/joi');
-
 const sum = require('../sumNumber');
 
 describe('When called with  two number', () => {

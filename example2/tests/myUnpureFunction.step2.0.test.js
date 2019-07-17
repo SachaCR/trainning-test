@@ -44,11 +44,7 @@ describe('myUnpureFunction() step 2', () => {
     const b = 5;
 
     it('throw an error', async () => {
-      const rabbotMock = {
-        publish: async () => {},
-      };
-
-      const myUnpureFunction = myUnpureFunctionFactory({ rabbot: rabbotMock });
+      const myUnpureFunction = myUnpureFunctionFactory({ rabbot: {} });
 
       let error;
 
